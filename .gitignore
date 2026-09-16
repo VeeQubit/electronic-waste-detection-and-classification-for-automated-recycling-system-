@@ -1,33 +1,57 @@
+# ==============================
 # Python
+# ==============================
 __pycache__/
 *.py[cod]
 *.pyo
+*.pyd
 
-# Virtual environment
+# ==============================
+# Virtual Environment
+# ==============================
 .venv/
 venv/
 env/
 
+# ==============================
 # Jupyter
+# ==============================
 .ipynb_checkpoints/
 
-# YOLO / Ultralytics
+# ==============================
+# Dataset - DO NOT UPLOAD
+# ==============================
+data/dataset/
+data/yolo_dataset/
+
+# ==============================
+# Large model files
+# ==============================
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.engine
+
+# ==============================
+# Training outputs
+# ==============================
 runs/
-*.pt
-*.onnx
+wandb/
+mlruns/
 
-# Dataset temporary files
-*.zip
-*.tar
-*.tar.gz
+# ==============================
+# Generated results
+# ==============================
+results/*
+!results/.gitkeep
 
-# Python tooling
-.pytest_cache/
-.mypy_cache/
-
+# ==============================
 # OS files
+# ==============================
 .DS_Store
 Thumbs.db
 
-# VS Code local settings
+# ==============================
+# IDE
+# ==============================
 .vscode/
