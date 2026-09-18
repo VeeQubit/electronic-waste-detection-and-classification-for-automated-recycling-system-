@@ -407,9 +407,9 @@ st.sidebar.header("Evaluation Settings")
 
 number_of_images = st.sidebar.slider(
     "Number of test images",
-    min_value=10,
-    max_value=15,
-    value=10
+    min_value=20,
+    max_value=25,
+    value=20
 )
 
 confidence_threshold = st.sidebar.slider(
