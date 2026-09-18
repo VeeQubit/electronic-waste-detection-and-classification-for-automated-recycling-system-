@@ -24,6 +24,11 @@ env/
 data/dataset/
 data/yolo_dataset/
 
+# Model weights
+*.pt
+*.pth
+*.onnx
+
 # ==============================
 # Large model files
 # ==============================
